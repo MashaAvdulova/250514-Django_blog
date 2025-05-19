@@ -57,5 +57,11 @@
 ## Заходим в папку
 ### cd password_generator_project
 
-## Подключаем Джанго
+## Включаем сервер Джанго
 ### python manage.py runserver
+
+## Останавливаем сервер Джанго
+### "CTRL"C (^C)
+
+## Создаем приложение внутри проекта
+### python manage.py startapp generayor
