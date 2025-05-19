@@ -20,32 +20,42 @@
 
 ## sudo apt install python3.10-venv
 
-
+# Виртуальное окружение venv 
 ## СНАЧАЛА СОЗДАЕМ ОКРУЖЕНИЕ:
-# создание виртуального окружения Линукс:
-# python3 -m venv venv
+### создание виртуального окружения Линукс:
+### python3 -m venv venv
 
-# создание виртуального окружения Windows
-# python -m venv venv
+## создание виртуального окружения Windows
+## python -m venv venv
 
 ## ПОТОМ АКТИВИРУЕМ
-# активация виртуального окружения Линукс:
-# source venv/bin/activate
+### активация виртуального окружения Линукс:
+### source venv/bin/activate
 
-# активация виртуального окружения Windows
-# venv\Scripts\activate.bat
+### активация виртуального окружения Windows
+### venv\Scripts\activate.bat
 
 ## ПОТОМ УСТАНАВЛИВАЕМ БИБЛИОТЕКИ
-# pip install requests bs4
+### pip install requests bs4
 
 ## УСТАНОВКА ИЗ ФАЙЛА:
-# pip install -r requirements.txt
+### pip install -r requirements.txt
 
 ## СОХРАНЕНИЕ БИБЛИОТЕК В ФАЙЛ:
-# pip freeze > requirements.txt
+### pip freeze > requirements.txt
 
 ## Деактивация
-# deactivate
+### deactivate
 
 ## Смотрим список установленных пакетов
-# pip list
+### pip list
+
+# Джанго
+## Устанавливаем Джанго
+### django-admin startproject password_generator_project
+
+## Заходим в папку
+### cd password_generator_project
+
+## Подключаем Джанго
+### python manage.py runserver
